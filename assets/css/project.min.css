@@ -1,0 +1,62 @@
+/****************************************************
+          css indexing
+      1. basic css
+      2. page header section css
+      3. nav-header section css
+      4. project section css
+      5. footer section css
+      6. back to top
+      7. loader css
+
+
+ ****************************************************/
+
+
+
+ /* *************************************************
+                 1. basic css
+ *************************************************** */
+ /* basic css */
+*{margin: 0; padding: 0;}a{text-decoration: none;}a,a:focus,a:hover{color:white;}p{padding: 0; margin: 0; font-size: 15px; /* color: #c5c5c5; */ line-height: 24px; font-family: 'Rubik', sans-serif;}ul li{list-style-type: none;}
+
+
+
+/* *************************************************
+      2. page header-title block section css
+*************************************************** */
+#page-header-title-block{margin-top: 60px; background-image: url('../images/frontend/page-banner-fashion.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;}#page-header-title-block .content-header{text-align: center; margin-bottom: 0px; padding: 50px 0px;}#page-header-title-block .content-header h2{/* position: relative; */ font-weight: 700; padding-bottom: 10px; font-size: 40px; line-height: 1.3; text-transform: uppercase; /* text-shadow: 5px 5px 0px rgba(233, 30, 99, 0.5), 8px 8px 0px rgba(33, 150, 243, 0.4); */ color: #fff; display: inline-block; transition: all .4s; font-family: 'Rubik', sans-serif;}#page-header-title-block .content-header p{font-size: 16px; font-weight: 400; color: #c5c5c5;}
+
+
+
+/*******************************************************
+          3. nav header section css
+*******************************************************/
+.navbar-brand{color: #fff; font-size: 35px; font-weight: 400; letter-spacing: 2px; font-family: 'Lobster', cursive;}.color-nav{color: #ffc209;}#home nav{background-color: #333439;}nav ul li a, .navbar-toggler-icon{color: white !important;}nav .navbar-brand{color: #fff; font-size: 28px; font-weight: 700; font-family: 'Rubik', sans-serif;}nav .navbar-toggler:focus{box-shadow: 0 0 0 0.25rem white;}header .navbar .show{/* background-color: rgba(0, 0, 0, 0.8); */}nav ul .nav-item{margin-left: 10px; font-weight: 500;}nav ul li .nav-link{border-bottom: 2px solid transparent; border-radius: 5px;}nav ul li .nav-link:hover{border-bottom: 2px solid white; border-radius: 5px; /* background-color: ; */}nav ul li .active{border-bottom: 2px solid white; border-radius: 5px; /*background-color: transparent;*/ background-color: #d81356;}.navbar-bg-dark{animation-name: animationFade; -webkit-animation-duration: 1s; -o-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; -o-animation-fill-mode: both; animation-fill-mode: both; -webkit-box-shadow: 0 10px 10px -10px rgb(0 0 0 / 35%); box-shadow: 0 10px 10px -10px rgb(0 0 0 / 35%); background: -webkit-linear-gradient( 90deg, #423f9c 31%, #862359 69%); background: -webkit-gradient(linear, left top, right top, color-stop(31%, #423f9c), color-stop(69%, #862359)); background: -webkit-linear-gradient(left, #423f9c 31%, #862359 69%); background: -o-linear-gradient(left, #423f9c 31%, #862359 69%); background: linear-gradient(90deg, #423f9c 31%, #862359 69%)}
+
+
+
+/* *************************************************
+              4. blog section css
+*************************************************** */
+
+#project{padding: 50px; background: black; color: white;}.project-nav{text-align: center; margin-bottom: 40px;}#project .project-nav .nav{display: inline-block; margin: 0; position: relative;}#project .project-nav .nav li{float: left; font-size: 16px; font-weight: 550; padding: 8px 15px; margin: 5px 5px; line-height: 15px; /* background-color: #d81356; */ border: 2px solid #d81356; border-radius: 20px; text-transform: uppercase; cursor: pointer;}#project .project-nav .nav li:hover{background-color: #d81356;}#project .project-nav .nav li.active{background-color: #d81356;}#project .container .project-container .project-item{position: relative; display: block; overflow: hidden; /* margin-top: 30px; */}#project .container .project-container .project-caption{position: absolute; content: ''; top: 5px; left: 5px; right: 5px; bottom: 5px; text-align: center; z-index: 5; -webkit-transition: .5s; transition: .5s; overflow: hidden; background-color: rgba(0, 0, 0, 0.7); padding-top: 35%; opacity: 0;}#project .container .project-container .project-caption .projct-icon{margin-bottom: 18px; font-weight: 550;}#project .container .project-container .project-caption .projct-icon .ico{height: 50px; width: 50px; padding: 15px; border-radius: 50%; margin: 0 auto; color: #ffffff; background-color: #d81356; border: 2px solid #d81356; margin: 0px 5px; /* transform: rotate(45deg) scale(1.1); */}#project .container .project-container .project-caption .projct-icon .ico:hover{background-color: transparent; transition: all .5s ease-in-out; color: #ffffff;}#project .container .project-container .project-caption span{color: #ffc209;}#project .container .project-container .project-item:hover .project-caption{opacity: 1; -webkit-transition: all linear .6s; transition: all .6s ease-in-out;}
+
+
+/* **************************************************************
+                      5. footer section css
+************************************************************** */
+
+#footer{padding: 50px 0px; /* background: #2B2C30; */ background: #333439; color: #fff;}#footer .social-icon{margin-bottom: 20px;}#footer .social-icon a{margin: 0 10px; color: #fff; font-size: 16px; width: 35px; height: 35px; line-height: 35px; text-align: center; display: inline-block; position: relative; -webkit-transition: all .4s; transition: all .4s; z-index: 3;}#footer .social-icon a:after{content: ''; width: 100%; height: 100%; top: 0; left: 0; position: absolute; border-radius: 10px; background: rgba(200, 200, 200, 0.2); z-index: -1; -webkit-transform: rotate(45deg) scale(1.1); transform: rotate(45deg) scale(1.1); -webkit-transition: all .4s; transition: all .4s;}#footer .social-icon a:hover:after{background: #d81356;}#footer .copywrite a{color: #d81356;}
+
+
+/* **************************************************************
+              6. back to top section css
+************************************************************** */
+#up_btn{position: fixed; right: 20px; bottom: 20px; width: 40px; height: 40px; line-height: 40px; text-align: center; font-size: 18px; color: #ffffff; background: #d81356; -webkit-box-shadow: 0 0 15px #000; box-shadow: 0 0 15px #000; border-radius: 50%; cursor: pointer; /*display: none;*/ z-index: 99999999;}
+
+
+/* *************************************************************
+                      7.  loader  css
+************************************************************* */
+
+.loader{position: fixed; top: 0; bottom: 0; width: 100%; background-color: #11141b; z-index: 999999;}.loader .loader-outter{position: absolute; border: 2px solid #ffc209; border-left-color: transparent; border-radius: 50%; width: 50px; height: 50px; left: calc(50% - 15px); top: calc(50% - 15px); -webkit-animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite; animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;}.loader .loader-inner{position: absolute; border: 2px solid #ffc209; border-radius: 50%; width: 40px; height: 40px; left: calc(50% - 10px); top: calc(50% - 10px); border-right: 0; border-top-color: transparent; -webkit-animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite; animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;}@-webkit-keyframes loader-outter{0%{-webkit-transform: rotate(0deg); transform: rotate(0deg);}100%{-webkit-transform: rotate(360deg); transform: rotate(360deg);}}@keyframes loader-outter{0%{-webkit-transform: rotate(0deg); transform: rotate(0deg);}100%{-webkit-transform: rotate(360deg); transform: rotate(360deg);}}@-webkit-keyframes loader-inner{0%{-webkit-transform: rotate(0deg); transform: rotate(0deg);}100%{-webkit-transform: rotate(-360deg); transform: rotate(-360deg);}}@keyframes loader-inner{0%{-webkit-transform: rotate(0deg); transform: rotate(0deg);}100%{-webkit-transform: rotate(-360deg); transform: rotate(-360deg);}}
